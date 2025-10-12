@@ -1,6 +1,6 @@
 <template>
 
-  <Toast :msg="topMsg"/>
+  <Toast v-if="false" :msg="topMsg"/>
 
   <MoviesCategory v-bind="$attrs" :filters="true"/>
 </template>

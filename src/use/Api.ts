@@ -11,11 +11,11 @@ const Api = {
 
   movies: {
     top250: {
-      url: `${entryV2}/films/top/`,
+      url: `${entryV2}/films/top`,
       title: 'Топ 250',
     },
     popular: {
-      url: `${entryV2}/films/`,
+      url: `${entryV2}/films`,
       title: 'Популярыне фильмы',
       query: 'type=FILM&order=NUM_VOTE',
     },
@@ -27,12 +27,12 @@ const Api = {
     },
 
     staff: {
-      url: `${entry}/staff/`,
+      url: `${entry}/staff`,
     },
   },
 
   filters: {
-    url: `${entryV2}/films/filters/`,
+    url: `${entryV2}/films/filters`,
   },
 };
 
