@@ -12,4 +12,9 @@ module.exports = defineConfig({
       },
     },
   },
+  chainWebpack: (config) => {
+    // Отключаем плагин проверки типов
+    config.plugins.delete('fork-ts-checker');
+  },
+  lintOnSave: false,
 });

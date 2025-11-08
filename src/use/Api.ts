@@ -16,7 +16,7 @@ const Api = {
     },
     popular: {
       url: `${entryV2}/films`,
-      title: 'Популярыне фильмы',
+      title: 'Популярные фильмы',
       query: 'type=FILM&order=NUM_VOTE',
     },
   },
